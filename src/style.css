@@ -35,14 +35,14 @@ header{
 
 .colorDiv{
     width: 100%;
-    height: 500px;
+    height: 700px;
     z-index: 0;
     border-bottom: 1px solid gray;
 }
 
 .elementsList{
     width: 350px;
-    height: 400px;
+    height: 500px;
     background-color: var(--elements);
     border-radius: 25px;
 }
@@ -68,6 +68,7 @@ input[type="range"]::-webkit-slider-thumb{
     width: 30px;
     height: 30px;
     border-radius: 50px;
+    cursor: pointer;
 }
 
 .red{
@@ -80,4 +81,13 @@ input[type="range"]::-webkit-slider-thumb{
 
 .blue{
     background: linear-gradient(90deg, #000, blue);
+}
+
+.Copy{
+    width: 80%;
+    height: 50px;
+    border: none;
+    background-color: green;
+    cursor: pointer;
+    border-radius: 25px;
 }
