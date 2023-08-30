@@ -9,16 +9,14 @@
 <body>
     <main>
         <header>
-            <center>
-                <h1>CssGenerator</h1>
-            </center>
+            <h1>CssGenerator</h1>
         </header>
         <div class="colorDiv">
             <center>
-                <h2>Color</h2>
                 <br><br>
                 <div class="elementsList">
-                    <br><br><br>
+                    <h2>Color</h2>
+                    <br>
                     Red:<br><br>
                     <input type="range" class="red" min="0" max="255"><br>
                     Green:<br><br>
@@ -31,8 +29,30 @@
                 </div>
             </center>
         </div>
+        <br><br>
+        <div class="border-div">
+            <center>
+                <br><br>
+                <div class="elementsList">
+                    <h2>Border generator</h2>
+                    <br><br><br>
+                    Top left<br>
+                    <input type="range" min="0" value="0" max="100" name="" id="top-left" class="border-range">
+                    <br>Top right<br><br>
+                    <input type="range" min="0" value="0" max="100" name="" id="top-right" class="border-range">
+                    Bottom left<br><br>
+                    <input type="range" min="0" value="0" max="100" name="" id="bottom-left" class="border-range">
+                    <br>Bottom right<br><br>
+                    <input type="range" min="0" value="0" max="100" name="" id="bottom-right" class="border-range">
+                    <br><br>
+                    <textarea name="" class="code-border" id="" cols="30" rows="10"></textarea>
+                    <button class="copy-border">Copy</button>
+                </div>
+            </center>
+        </div>
     </main>
     <script src="src/app.js" type="module"></script>
     <script src="src/color.js" type="module"></script>
+    <script src="src/border.js"></script>
 </body>
 </html>

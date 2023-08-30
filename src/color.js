@@ -8,6 +8,8 @@ const colorDiv = document.querySelector(".colorDiv");
 const console = document.querySelector(".codeColor");
 const copy = document.querySelector(".Copy");
 
+const borderDiv = document.querySelector(".border-div");
+
 let color;
 
 function SetColor()
@@ -16,6 +18,7 @@ function SetColor()
     let lastColor = "background-color: " + color + ";";
 
     colorDiv.style.backgroundColor = color;
+    borderDiv.style.backgroundColor = color;
     console.value = lastColor;
 
     SaveData;
